@@ -1,0 +1,31 @@
+.grid {
+    width: 400px;
+    height: 600px;
+    background-color: transparent;
+    position: relative;
+    font-size: 200px;
+    text-align: center;
+    background-image: url("assets/img/background_400x850.png");
+    background-position: left bottom;
+    background-repeat: no-repeat;
+}
+
+@keyframes scrollToTop {
+    0% { background-position: left bottom; }
+    50% { background-position: center; }
+    100% { background-position: left top; }
+}
+
+.doodler {
+    width: 60px;
+    height: 85px;
+    background-image: url("assets/img/patesz.png");
+    position: absolute;
+}
+
+.platform {
+    width: 85px;
+    height: 15px;
+    background-image: url("assets/img/platform.png");
+    position: absolute;
+}
